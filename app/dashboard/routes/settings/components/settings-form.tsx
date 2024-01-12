@@ -6,6 +6,7 @@ import {zodResolver} from "@hookform/resolvers/zod"
 import {useForm} from "react-hook-form"
 import {toast} from "react-hot-toast"
 import {Trash} from "lucide-react"
+// @ts-ignore
 import {Store} from "@prisma/client"
 import {useParams, useRouter} from "next/navigation"
 import React, {useState} from "react"
